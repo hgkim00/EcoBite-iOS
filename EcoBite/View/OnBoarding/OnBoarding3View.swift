@@ -192,7 +192,7 @@ struct OnBoarding3View: View {
                 Spacer()
 
                 NavigationLink {
-                    MainView()
+                    MainView(index: 0)
                 } label: {
                     Text("다음")
                         .bold()

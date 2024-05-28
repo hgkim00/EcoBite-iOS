@@ -87,5 +87,5 @@ struct HomeView: View {
 }
 
 #Preview {
-    MainView()
+    MainView(index: 0)
 }

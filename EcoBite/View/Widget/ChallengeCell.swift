@@ -48,7 +48,9 @@ struct ChallengeCell: View {
             description: "매일 아침에 기상 후 바로 물을 마시는 행동은 우리에게 정말 삶의 활력을 불어넣어줍니다! ...",
             imageURL: "https://images.unsplash.com/photo-1624948465027-6f9b51067557?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             participateCount: 132,
-            tagList: ["습관", "건강"]
+            tagList: ["습관", "건강"],
+            expScore: 50,
+            tpScore: 50
         )
     )
 }

@@ -13,12 +13,16 @@ class Challenge: ObservableObject {
     @Published var imageURL: String
     @Published var participateCount: Int
     @Published var tagList: [String]
+    @Published var expScore: Int
+    @Published var tpScore: Int
 
-    init(title: String, description: String, imageURL: String, participateCount: Int, tagList: [String]) {
+    init(title: String, description: String, imageURL: String, participateCount: Int, tagList: [String], expScore: Int, tpScore: Int) {
         self.title = title
         self.description = description
         self.imageURL = imageURL
         self.participateCount = participateCount
         self.tagList = tagList
+        self.expScore = expScore
+        self.tpScore = tpScore
     }
 }

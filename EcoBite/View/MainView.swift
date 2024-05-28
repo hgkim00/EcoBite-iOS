@@ -8,30 +8,34 @@
 import SwiftUI
 
 struct MainView: View {
+    @State var index: Int
+
     var body: some View {
         NavigationStack {
-            TabView {
-                HomeView()
-                    .tabItem {
-                        Image(systemName: "house.fill")
-                        Text("Home")
-                    }
-                ContinueView()
-                    .tabItem {
-                        Image(systemName: "clock.arrow.circlepath")
-                        Text("Continue")
-                    }
-                ProfileView()
-                    .tabItem {
-                        Image(systemName: "person.fill")
-                        Text("Profile")
-                    }
-            }
-            .navigationTitle("")
+            TabView(selection: .constant(index),
+                    content: {
+                        HomeView()
+                            .tabItem {
+                                Image(systemName: "house.fill")
+                                Text("Home")
+                            }.tag(0)
+                        ContinueView()
+                            .tabItem {
+                                Image(systemName: "clock.arrow.circlepath")
+                                Text("Continue")
+                            }.tag(1)
+                        ProfileView()
+                            .tabItem {
+                                Image(systemName: "person.fill")
+                                Text("Profile")
+                            }.tag(2)
+                    })
+                    .navigationTitle("")
+                    .navigationBarBackButtonHidden()
         }
     }
 }
 
 #Preview {
-    MainView()
+    MainView(index: 0)
 }

@@ -10,7 +10,14 @@
 		143B6E752C05D8300055566D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E742C05D8300055566D /* ColorExtension.swift */; };
 		143B6E772C05E2550055566D /* OnBoarding0View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E762C05E2550055566D /* OnBoarding0View.swift */; };
 		143B6E792C05E84E0055566D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E782C05E84E0055566D /* User.swift */; };
-		143B6E7B2C05EFDD0055566D /* CertificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E7A2C05EFDD0055566D /* CertificationView.swift */; };
+		143B6E7D2C05FF140055566D /* CurrentChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E7C2C05FF140055566D /* CurrentChallengeView.swift */; };
+		143B6E7F2C06007A0055566D /* EXPBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E7E2C0600790055566D /* EXPBox.swift */; };
+		143B6E812C0600830055566D /* TPBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E802C0600830055566D /* TPBox.swift */; };
+		143B6E832C06044A0055566D /* CertificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E822C06044A0055566D /* CertificationView.swift */; };
+		143B6E8A2C061DA70055566D /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E892C061DA70055566D /* CameraService.swift */; };
+		143B6E8C2C0623940055566D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E8B2C0623940055566D /* CameraView.swift */; };
+		143B6E8E2C06275C0055566D /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E8D2C06275C0055566D /* CustomCameraView.swift */; };
+		143B6E902C062A660055566D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B6E8F2C062A660055566D /* ContentView.swift */; };
 		14439DEC2BFCCFA3009239B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14439DEB2BFCCFA3009239B9 /* MainView.swift */; };
 		14A99FFB2BFB78BF00F9F680 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A99FFA2BFB78BF00F9F680 /* LoginView.swift */; };
 		14A9A0022BFB7EDC00F9F680 /* OnBoarding1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9A0012BFB7EDC00F9F680 /* OnBoarding1View.swift */; };
@@ -34,7 +41,14 @@
 		143B6E742C05D8300055566D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		143B6E762C05E2550055566D /* OnBoarding0View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding0View.swift; sourceTree = "<group>"; };
 		143B6E782C05E84E0055566D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		143B6E7A2C05EFDD0055566D /* CertificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationView.swift; sourceTree = "<group>"; };
+		143B6E7C2C05FF140055566D /* CurrentChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentChallengeView.swift; sourceTree = "<group>"; };
+		143B6E7E2C0600790055566D /* EXPBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXPBox.swift; sourceTree = "<group>"; };
+		143B6E802C0600830055566D /* TPBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPBox.swift; sourceTree = "<group>"; };
+		143B6E822C06044A0055566D /* CertificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationView.swift; sourceTree = "<group>"; };
+		143B6E892C061DA70055566D /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		143B6E8B2C0623940055566D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		143B6E8D2C06275C0055566D /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		143B6E8F2C062A660055566D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14439DEB2BFCCFA3009239B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		14A99FFA2BFB78BF00F9F680 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		14A9A0012BFB7EDC00F9F680 /* OnBoarding1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding1View.swift; sourceTree = "<group>"; };
@@ -66,17 +80,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143B6E882C061D900055566D /* AVCamera */ = {
+			isa = PBXGroup;
+			children = (
+				143B6E892C061DA70055566D /* CameraService.swift */,
+				143B6E8B2C0623940055566D /* CameraView.swift */,
+				143B6E8D2C06275C0055566D /* CustomCameraView.swift */,
+				143B6E8F2C062A660055566D /* ContentView.swift */,
+			);
+			path = AVCamera;
+			sourceTree = "<group>";
+		};
 		14A99FFC2BFB78C500F9F680 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				14E8AAA42C04922300763D03 /* Widget */,
+				14E8AA9D2C048DC700763D03 /* OnBoarding */,
 				14439DEB2BFCCFA3009239B9 /* MainView.swift */,
 				14A99FFA2BFB78BF00F9F680 /* LoginView.swift */,
-				14E8AA9D2C048DC700763D03 /* OnBoarding */,
 				14E8AA9E2C048E0000763D03 /* HomeView.swift */,
 				14E8AAA02C048E1900763D03 /* ContinueView.swift */,
 				14E8AAA22C048E5300763D03 /* ProfileView.swift */,
 				14E8AAAD2C04A73F00763D03 /* ChallengeDetailView.swift */,
+				143B6E822C06044A0055566D /* CertificationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -109,6 +135,7 @@
 		14C6E7682BF772AD00ADAB37 /* EcoBite */ = {
 			isa = PBXGroup;
 			children = (
+				143B6E882C061D900055566D /* AVCamera */,
 				14A99FFD2BFB78CD00F9F680 /* Model */,
 				14A99FFC2BFB78C500F9F680 /* View */,
 				14E8AAA92C049B5800763D03 /* MockChallengeData.swift */,
@@ -142,10 +169,12 @@
 		14E8AAA42C04922300763D03 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
-				14E8AAA52C04926000763D03 /* ChallengeCell.swift */,
-				14E8AAAB2C049E1400763D03 /* TagBox.swift */,
 				143B6E742C05D8300055566D /* ColorExtension.swift */,
-				143B6E7A2C05EFDD0055566D /* CertificationView.swift */,
+				14E8AAA52C04926000763D03 /* ChallengeCell.swift */,
+				143B6E7C2C05FF140055566D /* CurrentChallengeView.swift */,
+				14E8AAAB2C049E1400763D03 /* TagBox.swift */,
+				143B6E7E2C0600790055566D /* EXPBox.swift */,
+				143B6E802C0600830055566D /* TPBox.swift */,
 			);
 			path = Widget;
 			sourceTree = "<group>";
@@ -223,17 +252,24 @@
 				14A9A0042BFB7EE900F9F680 /* OnBoarding2View.swift in Sources */,
 				14E8AAA82C04940000763D03 /* Challenge.swift in Sources */,
 				14E8AAA12C048E1900763D03 /* ContinueView.swift in Sources */,
-				143B6E7B2C05EFDD0055566D /* CertificationView.swift in Sources */,
 				14E8AAA32C048E5300763D03 /* ProfileView.swift in Sources */,
 				14C6E76A2BF772AD00ADAB37 /* EcoBiteApp.swift in Sources */,
 				14A99FFB2BFB78BF00F9F680 /* LoginView.swift in Sources */,
 				14A9A0062BFB7EF500F9F680 /* OnBoarding3View.swift in Sources */,
+				143B6E8E2C06275C0055566D /* CustomCameraView.swift in Sources */,
 				14439DEC2BFCCFA3009239B9 /* MainView.swift in Sources */,
 				143B6E772C05E2550055566D /* OnBoarding0View.swift in Sources */,
+				143B6E902C062A660055566D /* ContentView.swift in Sources */,
 				14E8AAAE2C04A73F00763D03 /* ChallengeDetailView.swift in Sources */,
 				14E8AAAC2C049E1400763D03 /* TagBox.swift in Sources */,
+				143B6E7F2C06007A0055566D /* EXPBox.swift in Sources */,
+				143B6E8A2C061DA70055566D /* CameraService.swift in Sources */,
+				143B6E812C0600830055566D /* TPBox.swift in Sources */,
 				14E8AA9F2C048E0000763D03 /* HomeView.swift in Sources */,
+				143B6E8C2C0623940055566D /* CameraView.swift in Sources */,
 				143B6E752C05D8300055566D /* ColorExtension.swift in Sources */,
+				143B6E832C06044A0055566D /* CertificationView.swift in Sources */,
+				143B6E7D2C05FF140055566D /* CurrentChallengeView.swift in Sources */,
 				14E8AAA62C04926000763D03 /* ChallengeCell.swift in Sources */,
 				143B6E792C05E84E0055566D /* User.swift in Sources */,
 				14A9A0022BFB7EDC00F9F680 /* OnBoarding1View.swift in Sources */,
@@ -375,6 +411,7 @@
 				DEVELOPMENT_TEAM = 4FCV7BL65G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진을 찍기 위해서는 권한이 필요합니다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -404,6 +441,7 @@
 				DEVELOPMENT_TEAM = 4FCV7BL65G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진을 찍기 위해서는 권한이 필요합니다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
